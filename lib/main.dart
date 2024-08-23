@@ -1,5 +1,6 @@
 import 'package:flutter_course/counter.dart';
 import 'package:flutter_course/if-else.dart';
+import 'package:flutter_course/lists.dart';
 import 'package:flutter_course/loops.dart';
 import 'package:flutter_course/methods.dart';
 import 'package:flutter_course/operators.dart';
@@ -16,5 +17,7 @@ void main(params) {
 
   //loops(params);
 
-  methods(params);
+  //methods(params);
+
+  lists(params);
 }
