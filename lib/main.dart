@@ -3,6 +3,7 @@ import 'package:flutter_course/if-else.dart';
 import 'package:flutter_course/lists-advanced.dart';
 import 'package:flutter_course/lists.dart';
 import 'package:flutter_course/loops.dart';
+import 'package:flutter_course/maps.dart';
 import 'package:flutter_course/methods.dart';
 import 'package:flutter_course/operators.dart';
 import 'package:flutter_course/switch.dart';
@@ -22,5 +23,7 @@ void main(params) {
 
   //lists(params);
 
-  lists_advanced(params);
+  //lists_advanced(params);
+
+  maps(params);
 }
