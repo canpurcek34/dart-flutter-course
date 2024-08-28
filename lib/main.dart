@@ -4,6 +4,7 @@ import 'package:flutter_course/counter.dart';
 import 'package:flutter_course/enums.dart';
 import 'package:flutter_course/if-else.dart';
 import 'package:flutter_course/implements.dart';
+import 'package:flutter_course/inheritance.dart';
 import 'package:flutter_course/lists-advanced.dart';
 import 'package:flutter_course/lists.dart';
 import 'package:flutter_course/loops.dart';
@@ -41,7 +42,9 @@ void main(params) {
 
   //enums(params);
 
-  oop();
+  //oop();
 
   //compo();
+
+  kalitim();
 }

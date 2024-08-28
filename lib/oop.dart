@@ -15,8 +15,9 @@ class Araba {
     calismaDurumu = false;
     hiz = 0;
 
-    print(calismaDurumu);
-    print(hiz);
+    print("---------------durdur--------------");
+    print('calisma durumu: $calismaDurumu');
+    print('hiz: $hiz');
   }
 
   void hizlan(int miktar) {
@@ -30,6 +31,9 @@ void oop() {
       Araba(marka: "Toyota", renk: "Siyah", hiz: 250, calismaDurumu: true);
 
   print(araba.marka);
+  print(araba.renk);
+  print(araba.hiz);
+  print(araba.calismaDurumu);
 
   araba.durdur();
 }
