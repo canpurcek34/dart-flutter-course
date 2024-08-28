@@ -1,9 +1,17 @@
+/*
+Ev'in bir Saray'a veya Villa'ya dönüşmesi: Downcasting
+Saray'ın veya Villa'nın Ev'e dönüşmesi: Upcasting
+
+Saray Villa'ya veya Villa Saray'a dönüşemez çünkü aralarında kalıtım ilişkisi yoktur.
+*/
+
 class Ev {
   int pencereSayisi;
 
   Ev({required this.pencereSayisi});
 }
 
+//saray bir evdir. saray alt sınıfında oluşturulan topkapiSarayi nesnesi upcast edilmiştir.
 class Saray extends Ev {
   int kuleSayisi;
 
@@ -11,6 +19,7 @@ class Saray extends Ev {
       : super(pencereSayisi: 100);
 }
 
+//ev bir villa değildir. villa olması için ekstra özellikleri olması gerekir.
 class Villa extends Ev {
   bool garajVarMi;
 

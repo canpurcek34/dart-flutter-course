@@ -13,6 +13,7 @@ import 'package:flutter_course/methods.dart';
 import 'package:flutter_course/nullsafety.dart';
 import 'package:flutter_course/oop.dart';
 import 'package:flutter_course/operators.dart';
+import 'package:flutter_course/overriding.dart';
 import 'package:flutter_course/switch.dart';
 
 void main(params) {
@@ -46,5 +47,7 @@ void main(params) {
 
   //compo();
 
-  kalitim();
+  //kalitim();
+
+  overriding();
 }
