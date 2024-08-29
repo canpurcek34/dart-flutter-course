@@ -1,6 +1,7 @@
 import 'package:flutter_course/abs-ext.dart';
 import 'package:flutter_course/composition.dart';
 import 'package:flutter_course/counter.dart';
+import 'package:flutter_course/encapsulation.dart';
 import 'package:flutter_course/enums.dart';
 import 'package:flutter_course/if-else.dart';
 import 'package:flutter_course/implements.dart';
@@ -52,5 +53,7 @@ void main(params) {
 
   //overriding();
 
-  interface();
+  //interface();
+
+  encapsulation();
 }
