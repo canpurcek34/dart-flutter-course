@@ -29,4 +29,17 @@ void lists(params) {
   //Listenin içerisi temizlenir.
   newMoneys.clear();
   print(newMoneys);
+
+  List <String> sebzeler = [ 'patates' , 'sogan' , 'biber' ];
+  print ('${sebzeler[0]} ');
+
+  // Veri Ekleme
+  sebzeler.add('limon');
+
+  // Güncelleme
+  sebzeler.insert (2, 'balık');
+
+  // Veri Okuma
+  String birinciSebze = sebzeler[0];
+  print(birinciSebze);
 }

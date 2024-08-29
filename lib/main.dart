@@ -3,6 +3,7 @@ import 'package:flutter_course/composition.dart';
 import 'package:flutter_course/counter.dart';
 import 'package:flutter_course/encapsulation.dart';
 import 'package:flutter_course/enums.dart';
+import 'package:flutter_course/hashset.dart';
 import 'package:flutter_course/if-else.dart';
 import 'package:flutter_course/implements.dart';
 import 'package:flutter_course/inheritance.dart';
@@ -55,5 +56,9 @@ void main(params) {
 
   //interface();
 
-  encapsulation();
+  //encapsulation();
+
+  //hashset();
+
+  //hashmap();
 }

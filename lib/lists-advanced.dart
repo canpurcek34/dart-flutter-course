@@ -22,4 +22,34 @@ void lists_advanced(params) {
       print('Dizide bulunmuyor.');
     }
   }
+
+  var meyveler = <String>[];
+  meyveler.add("Muz");
+  meyveler.add("Kiraz");
+
+  // For Each
+  for (var meyve in meyveler) {
+    print("Sonuç : $meyve");
+
+    // For Döngüsü
+    for (var i = 0; i < meyveler.length; i++) {
+      print('$i. -> ${meyveler[i]}');
+    }
+  }
+
+  List<int> numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+  // Tek sayıları filtreleme
+  List<int> oddNumbers = numbers.where((number) => number % 2 != 0).toList();
+  print('Tek sayılar: $oddNumbers');
+
+  
+  // For döngüsü ile filtreleme
+  List<int> odd = [];
+  for (int number in numbers) {
+    if (number % 2 != 0) {
+      odd.add(number);
+    }
+  }
+  print('Tek sayılar: $oddNumbers');
 }
