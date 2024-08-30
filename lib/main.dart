@@ -13,6 +13,7 @@ import 'package:flutter_course/lists-advanced.dart';
 import 'package:flutter_course/lists.dart';
 import 'package:flutter_course/loops.dart';
 import 'package:flutter_course/maps.dart';
+import 'package:flutter_course/home.dart';
 import 'package:flutter_course/methods.dart';
 import 'package:flutter_course/nullsafety.dart';
 import 'package:flutter_course/oop.dart';
@@ -63,5 +64,7 @@ void main(params) {
 
   //hashmap();
 
-  async();
+  //async();
+
+  masonry();
 }
